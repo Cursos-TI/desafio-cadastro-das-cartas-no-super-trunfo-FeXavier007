@@ -29,29 +29,30 @@ int main() {
     printf ("Vamos lá! Vamos cadastrar as cartas.\nCadastro da Carta 01.\n\n");
     printf ("Escolha o estado: A = São Paulo, B = Bahia, C = Ceará, \nD = Rio de Janeiro, E = Espírito Santo, F = Tocantins, \nG = Goiais, H = Mato Grosso\n\n");
    
-    printf (" Digite a letra do estado: ");
-    scanf (" %s", estado_c1);
+    printf ("  Digite a letra do estado: ");
+    scanf (" %s ", estado_c1);
     
-    printf (" \nDigite o código(A letra do estado mais dois números ex:A01): ");
-    scanf (" %s", cod_c1);
+    printf ("  \nO código é a letra do estado mais dois números ex:A01.");
+    printf ("  \nDigite o código: ");
+    scanf (" %s ", cod_c1);
     
-    printf (" \nDigite o nome da cidade: ");
-    scanf (" %s", cidade_c1);
+    printf ("  \nDigite o nome da cidade: ");
+    scanf (" %s ", cidade_c1);
     
-    printf (" \nDigite a população: ");
-    scanf (" %d", &populacao_c1);
+    printf ("  \nDigite a população: ");
+    scanf ("%d", &populacao_c1);
     
-    printf (" \nDigite a área: ");
-    scanf (" %.2f", &area_c1);
+    printf ("  \nDigite a área: ");
+    scanf (" %.2f ", &area_c1);
     
-    printf (" \nDigite o PIB: ");
-    scanf (" %.2f", &pib_c1);
+    printf ("  \nDigite o PIB: ");
+    scanf (" %.2f ", &pib_c1);
     
-    printf (" \nDigite a quantidade de pontos turísticos: ");
-    scanf (" %d", &p_turistico_c1);
+    printf ("  \nDigite a quantidade de pontos turísticos: ");
+    scanf (" %d ", &p_turistico_c1);
     
      // Carta 02
-    printf ("Vamos lá! Vamos cadastrar as cartas.\nCadastro da Carta 02.\n\n");
+    printf ("\nVamos lá! Vamos cadastrar a Carta 02.\n\n");
     printf ("Escolha o estado: A = São Paulo, B = Bahia, C = Ceará, \nD = Rio de Janeiro, E = Espírito Santo, F = Tocantins, \nG = Goiais, H = Mato Grosso\n\n");
     printf ("Digite a letra do estado: ");
     scanf (" %s", estado_c2);
