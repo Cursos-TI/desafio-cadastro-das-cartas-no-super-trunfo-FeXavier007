@@ -33,7 +33,7 @@ int main() {
     printf ("Escolha o estado: A = São Paulo, B = Bahia, C = Ceará, \nD = Rio de Janeiro, E = Espírito Santo, F = Tocantins, \nG = Goiais, H = Mato Grosso\n\n");
    
     printf ("Digite a letra do estado: ");
-    scanf (" %s", estado_c1);
+    scanf (" %c", estado_c1);
     
     printf ("\nO código é a letra do estado mais dois números ex:A01.");
     printf ("\nDigite o código: ");
@@ -58,7 +58,7 @@ int main() {
     printf ("\nVamos lá! Vamos cadastrar a Carta 02.\n\n");
     printf ("Escolha o estado: A = São Paulo, B = Bahia, C = Ceará, \nD = Rio de Janeiro, E = Espírito Santo, F = Tocantins, \nG = Goiais, H = Mato Grosso\n\n");
     printf ("Digite a letra do estado: ");
-    scanf (" %s", estado_c2);
+    scanf (" %c", estado_c2);
     
     printf ("\nDigite o código(A letra do estado mais dois números ex:A01): ");
     scanf (" %s", cod_c2);
