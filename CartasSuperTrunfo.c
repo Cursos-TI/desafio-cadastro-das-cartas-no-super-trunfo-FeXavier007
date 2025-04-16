@@ -35,23 +35,23 @@ int main() {
     printf ("Digite a letra do estado: ");
     scanf (" %c", estado_c1);
     
-    printf ("\nO código é a letra do estado mais dois números ex:A01.");
-    printf ("\nDigite o código: ");
+    printf ("O código é a letra do estado mais dois números ex:A01.");
+    printf ("Digite o código: ");
     scanf (" %s", cod_c1);
     
-    printf ("\nDigite o nome da cidade: ");
+    printf ("Digite o nome da cidade: ");
     scanf (" %s", cidade_c1);
     
-    printf ("\nDigite a população: ");
+    printf ("Digite a população: ");
     scanf (" %d", &populacao_c1);
     
-    printf ("\nDigite a área: ");
+    printf ("Digite a área: ");
     scanf (" %.2f ", &area_c1);
     
-    printf ("\nDigite o PIB: ");
+    printf ("Digite o PIB: ");
     scanf (" %.2f ", &pib_c1);
     
-    printf ("\nDigite a quantidade de pontos turísticos: ");
+    printf ("Digite a quantidade de pontos turísticos: ");
     scanf (" %d", &p_turistico_c1);
     
     // Carta 02
