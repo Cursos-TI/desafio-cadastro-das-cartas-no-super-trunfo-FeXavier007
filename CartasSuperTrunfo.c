@@ -103,6 +103,9 @@ int main() {
     printf (" PIB: %.2f\n", pib_c2);
     printf (" Pontos Turísticos: %d\n", p_turistico_c2);
 
+    printf ("\n\nAs cartas foram cadastradas com sucesso!\n\n");
+    //printf ("Agora você pode jogar!\n\n");
+    printf ("Obrigado por jogar!\n");
      
     return 0;
 }
