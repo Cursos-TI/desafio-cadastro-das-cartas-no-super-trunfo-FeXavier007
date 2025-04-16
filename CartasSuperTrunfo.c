@@ -31,27 +31,27 @@ int main() {
     // Uso da função printf para exibir mensagens ao usuário, solicitando as informações necessárias com scanf.
     printf ("Vamos lá! Vamos cadastrar as cartas.\nCadastro da Carta 01.\n\n");
     printf ("Escolha o estado: A = São Paulo, B = Bahia, C = Ceará, \nD = Rio de Janeiro, E = Espírito Santo, F = Tocantins, \nG = Goiais, H = Mato Grosso\n\n");
-   
-    printf ("Digite a letra do estado: ");
+    
+    printf ("Digite a letra do estado: \n");
     scanf (" %c", estado_c1);
     
-    printf ("O código é a letra do estado mais dois números ex:A01.");
-    printf ("Digite o código: ");
+    printf ("O código é a letra do estado mais dois números ex:A01.\n");
+    printf ("Digite o código: \n");
     scanf (" %s", cod_c1);
     
-    printf ("Digite o nome da cidade: ");
+    printf ("Digite o nome da cidade: \n");
     scanf (" %s", cidade_c1);
     
-    printf ("Digite a população: ");
+    printf ("Digite a população: \n");
     scanf (" %d", &populacao_c1);
     
-    printf ("Digite a área: ");
+    printf ("Digite a área: \n");
     scanf (" %.2f ", &area_c1);
     
-    printf ("Digite o PIB: ");
+    printf ("Digite o PIB: \n");
     scanf (" %.2f ", &pib_c1);
     
-    printf ("Digite a quantidade de pontos turísticos: ");
+    printf ("Digite a quantidade de pontos turísticos: \n");
     scanf (" %d", &p_turistico_c1);
     
     // Carta 02
